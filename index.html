@@ -21,36 +21,41 @@
   <body>
     <!-- Page Header -->
     <header class="page-header">
-      <nav class="page-nav">
-        <a class="page-logo" href="/">Web<span class="accent-color">Studio</span> </a>
-        <ul class="menu">
-          <li class="menu-item">
-            <a class="menu-link" href="./index.html">Studio</a>
-          </li>
-          <li class="menu-item"><a class="menu-link" href="">Portfolio</a></li>
-          <li class="menu-item"><a class="menu-link" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="contact-block">
-        <ul class="contact-list">
-          <li class="contact-list-item">
-            <a class="contact-list-header" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="contact-list-item">
-            <a class="contact-list-header" href="tel:+110001111111">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <nav class="page-nav">
+          <a class="page-logo" href="/">Web<span class="accent-color">Studio</span> </a>
+          <ul class="menu">
+            <li class="menu-item">
+              <a class="menu-link" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-item"><a class="menu-link" href="">Portfolio</a></li>
+            <li class="menu-item"><a class="menu-link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="contact-block">
+          <ul class="contact-list">
+            <li class="contact-list-item">
+              <a class="contact-list-header" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="contact-list-item">
+              <a class="contact-list-header" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!-- Hero Section -->
       <section class="hero-section">
-        <h1 class="main-title">Effective Solutions for Your Business</h1>
-        <button class="order-service-btn" type="button">Order Service</button>
+        <div class="container-hero-section">
+          <h1 class="main-title">Effective Solutions for Your Business</h1>
+          <button class="order-service-btn" type="button">Order Service</button>
+        </div>
       </section>
       <!-- What Section -->
-      <section class="what-section" id="what">
-        <h2>What</h2>
+      <section class="what-section section-paddings" id="what">
+        <div class="container what-container">
+             <h2 class="visually-hidden">What</h2>
         <ul class="what-list">
           <li class="what-list-item">
             <h3 class="what-list-title">Strategy</h3>
@@ -79,7 +84,7 @@
         </ul>
       </section>
       <!-- Team Section -->
-      <section class="team-section" id="team">
+      <section class="team-section section-paddings" id="team">
         <h2 class="team-section-title">Our Team</h2>
         <ul class="team-list">
           <li class="team-list-item">
@@ -103,9 +108,10 @@
             <p class="team-list-speciality">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
       <!-- Our Portfolio -->
-      <section class="portfolio-section" id="portfolio">
+      <section class="portfolio-section section-paddings" id="portfolio">
         <h2 class="section-title">Our Portfolio</h2>
         <ul class="portfolio-list">
           <li class="portfolio-list-item">

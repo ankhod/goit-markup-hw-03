@@ -237,6 +237,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-bottom: 8px;
 }
 
 .what-list-text {
@@ -276,6 +277,8 @@ body {
 }
 
 .team-list-fullname {
+  padding-top: 32px;
+  padding-bottom: 8px;
   font: 500 20px / 1.2 'Roboto', sans-serif;
   letter-spacing: 0.02em;
   text-align: center;
@@ -324,6 +327,8 @@ body {
 }
 
 .portfolio-list-title {
+  padding-top: 32px;
+  padding-bottom: 8px;
   font: 500 20px / 1.2 'Roboto', sans-serif;
   letter-spacing: 0.02em;
   color: #2e2f42;

@@ -66,8 +66,8 @@ body {
 }
 
 .section-paddings {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .container {
@@ -88,6 +88,7 @@ body {
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .page-nav {
@@ -102,6 +103,7 @@ body {
   display: flex;
   padding-top: 23px;
   padding-bottom: 23px;
+  margin-right: 76px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -113,14 +115,13 @@ body {
 
 .menu {
   display: flex;
-  column-gap: 41px;
-  padding-left: 82px;
+  gap: 40px;
 }
 
 .menu-link {
   display: flex;
-  padding-top: 23px;
-  padding-bottom: 23px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -139,15 +140,15 @@ body {
 
 .contact-list {
   display: flex;
-  column-gap: 41px;
-  padding-top: 23px;
-  padding-bottom: 23px;
+  column-gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .contact-list-item {
   display: block;
-  padding-top: 23px;
-  padding-bottom: 23px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   align-items: center;
   font-weight: 400;
   font-size: 16px;
@@ -166,10 +167,11 @@ body {
 /* ================ /HERO STYLES ================ */
 
 .hero-section {
+  padding: 188px 0;
   background-color: #2e2f42;
 }
 
-.container-hero-section {
+.hero-section-container {
   display: flex;
   flex-direction: column;
   gap: 53px;
@@ -190,16 +192,17 @@ body {
   text-align: center;
   color: #fff;
   background: #2e2f42;
-  width: 496px;
+  max-width: 496px;
 }
 
 .order-service-btn {
-  display: flex;
+  display: block;
   align-items: center;
   border-radius: 4px;
   padding: 13px 30px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
+  border: none;
   font: 500 16px / 1.5 'Roboto', sans-serif;
   letter-spacing: 0.04em;
   color: #fff;
@@ -228,16 +231,17 @@ body {
 
 .what-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .what-list-title {
+  width: calc((100% - 72px) / 4);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .what-list-text {
@@ -268,17 +272,21 @@ body {
 
 .team-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
   margin-bottom: 50px;
 }
 
 .team-list-item {
+  border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
 }
 
+.team-list-fullname-speciality {
+  padding: 32px 0;
+}
+
 .team-list-fullname {
-  padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px
   font: 500 20px / 1.2 'Roboto', sans-serif;
   letter-spacing: 0.02em;
   text-align: center;
@@ -311,24 +319,31 @@ body {
 .portfolio-section {
   background-color: #f4f4fd;
 }
+.portfolio-list-title-develop {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 
 .portfolio-list {
+  row-gap: 48px;
+  gap: 24px;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  max-width: 1128px;
+   max-width: 1128px;
   background-color: #ffffff;
 }
 
 .portfolio-list-item {
+  width: calc((100% - 48px) / 3);
   border-bottom: 1px solid #e7e9fc;
   width: 360px;
   height: 420px;
 }
 
 .portfolio-list-title {
-  padding-top: 32px;
-  padding-bottom: 8px;
+    margin-bottom: 8px
   font: 500 20px / 1.2 'Roboto', sans-serif;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -345,6 +360,7 @@ body {
 /* ================ /FOOTER STYLES ================ */
 
 .page-footer {
+  padding: 100px 0;
   background: #2e2f42;
 }
 
@@ -356,9 +372,9 @@ body {
 }
 
 .page-logo-footer {
-  display: flex;
+  display: inline-block;
   flex-wrap: wrap;
-  padding-top: 100px;
+  margin-bottom: 16px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;

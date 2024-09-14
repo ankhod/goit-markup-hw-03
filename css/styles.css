@@ -81,6 +81,10 @@ body {
 
 /* ================ HEADER STYLES ================ */
 
+.page-header {
+  border-bottom: 1px solid #e7e9fc
+}
+
 .container-header {
   display: flex;
   max-width: 1158px;
@@ -88,8 +92,7 @@ body {
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
-}
+  }
 
 .page-nav {
   display: flex;
@@ -140,7 +143,7 @@ body {
 
 .contact-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -286,8 +289,8 @@ body {
 }
 
 .team-list-fullname {
-  margin-bottom: 8px
-  font: 500 20px / 1.2 'Roboto', sans-serif;
+   margin-bottom: 8px;
+    font: 500 20px / 1.2 'Roboto', sans-serif;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -329,9 +332,9 @@ body {
 .portfolio-list {
   row-gap: 48px;
   gap: 24px;
-  display: flex;
+    display: flex;
   flex-wrap: wrap;
-   max-width: 1128px;
+   
   background-color: #ffffff;
 }
 
@@ -343,7 +346,7 @@ body {
 }
 
 .portfolio-list-title {
-    margin-bottom: 8px
+    margin-bottom: 8px;
   font: 500 20px / 1.2 'Roboto', sans-serif;
   letter-spacing: 0.02em;
   color: #2e2f42;

@@ -227,22 +227,13 @@ body {
   --second-family: 'Raleway', sans-serif;
 }
 
-.what-container {
-  width: 1128px;
-  padding-left: ;
-  padding-right: ;
-}
-
 .what-list {
   display: flex;
   gap: 24px;
 }
 
-.what-list-item {
-}
-
 .what-list-title {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -252,6 +243,7 @@ body {
 }
 
 .what-list-text {
+  flex-basis: calc((100% - 3 * 24px) / 4);
   font: 400 16px / 1.5 'Roboto', sans-serif;
   letter-spacing: 0.02em;
   color: #434455;
@@ -333,15 +325,15 @@ body {
 }
 
 .portfolio-list {
-  row-gap: 48px;
-  gap: 24px;
   display: flex;
   flex-wrap: wrap;
+  gap: 24px;
 
   background-color: #ffffff;
 }
 
 .portfolio-list-item {
+  row-gap: 48px;
   width: calc((100% - 48px) / 3);
   border-bottom: 1px solid #e7e9fc;
   width: 360px;
@@ -349,6 +341,7 @@ body {
 }
 
 .portfolio-list-title {
+  row-gap: 48px;
   margin-bottom: 8px;
   font: 500 20px / 1.2 'Roboto', sans-serif;
   letter-spacing: 0.02em;
@@ -356,6 +349,7 @@ body {
 }
 
 .portfolio-list-develop {
+  row-gap: 48px;
   font: 400 16px / 1.5 'Roboto', sans-serif;
   letter-spacing: 0.02em;
   color: #434455;

@@ -234,6 +234,8 @@ body {
 }
 
 .what-list-title {
+  display: flex;
+  flex-basis: calc((100% - 3 * 24px) / 4);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -243,6 +245,8 @@ body {
 }
 
 .what-list-text {
+  display: flex;
+  flex-basis: calc((100% - 3 * 24px) / 4);
   font: 400 16px / 1.5 'Roboto', sans-serif;
   letter-spacing: 0.02em;
   color: #434455;

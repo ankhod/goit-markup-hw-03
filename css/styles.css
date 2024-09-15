@@ -72,9 +72,10 @@ body {
 
 .container {
   max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ================ /COMMON STYLES ================ */
@@ -82,7 +83,7 @@ body {
 /* ================ HEADER STYLES ================ */
 
 .page-header {
-  border-bottom: 1px solid #e7e9fc
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .container-header {
@@ -92,7 +93,7 @@ body {
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  }
+}
 
 .page-nav {
   display: flex;
@@ -143,7 +144,7 @@ body {
 
 .contact-list {
   display: flex;
-  gap: 40px
+  gap: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -237,6 +238,9 @@ body {
   gap: 24px;
 }
 
+.what-list-item {
+}
+
 .what-list-title {
   width: calc((100% - 72px) / 4);
   font-weight: 500;
@@ -289,8 +293,8 @@ body {
 }
 
 .team-list-fullname {
-   margin-bottom: 8px;
-    font: 500 20px / 1.2 'Roboto', sans-serif;
+  margin-bottom: 8px;
+  font: 500 20px / 1.2 'Roboto', sans-serif;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -328,13 +332,12 @@ body {
   border-top: none;
 }
 
-
 .portfolio-list {
   row-gap: 48px;
   gap: 24px;
-    display: flex;
+  display: flex;
   flex-wrap: wrap;
-   
+
   background-color: #ffffff;
 }
 
@@ -346,7 +349,7 @@ body {
 }
 
 .portfolio-list-title {
-    margin-bottom: 8px;
+  margin-bottom: 8px;
   font: 500 20px / 1.2 'Roboto', sans-serif;
   letter-spacing: 0.02em;
   color: #2e2f42;

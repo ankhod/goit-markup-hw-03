@@ -229,7 +229,6 @@ body {
 
 .what-list {
   display: flex;
-
   gap: 24px;
 }
 
@@ -330,7 +329,7 @@ body {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
   row-gap: 48px;
   background-color: #ffffff;
 }

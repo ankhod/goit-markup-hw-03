@@ -233,7 +233,7 @@ body {
 }
 
 .what-list-item {
-  flex-basis: calc((100% - 4 * 24px) / 5);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   max-width: 1158px;
 }
 

@@ -239,7 +239,6 @@ body {
 
 .what-list-title {
   display: flex;
-
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -250,7 +249,6 @@ body {
 
 .what-list-text {
   display: flex;
-
   font: 400 16px / 1.5 'Roboto', sans-serif;
   letter-spacing: 0.02em;
   color: #434455;
@@ -334,7 +332,7 @@ body {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  column-gap: 24px;
   row-gap: 48px;
   background-color: #ffffff;
 }

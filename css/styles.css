@@ -328,7 +328,6 @@ body {
 }
 
 .portfolio-list-develop {
-  row-gap: 48px;
   font: 400 16px / 1.5 'Roboto', sans-serif;
   letter-spacing: 0.02em;
   color: #434455;
